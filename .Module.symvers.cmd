@@ -1,1 +1,0 @@
-cmd_/home/ftang/Kprobe-hooker/Module.symvers := sed 's/\.ko$$/\.o/' /home/ftang/Kprobe-hooker/modules.order | scripts/mod/modpost -m -a  -o /home/ftang/Kprobe-hooker/Module.symvers -e -i Module.symvers   -T -
