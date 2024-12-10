@@ -1,0 +1,1 @@
+cmd_/home/ftang/Kprobe-hooker/Kprobe-hooker.ko := ld -r  -m elf_x86_64 -z noexecstack   --build-id=sha1  -T scripts/module.lds -o /home/ftang/Kprobe-hooker/Kprobe-hooker.ko /home/ftang/Kprobe-hooker/Kprobe-hooker.o /home/ftang/Kprobe-hooker/Kprobe-hooker.mod.o;  true
