@@ -1,7 +1,7 @@
 # Kprobe-hooker
 Use kprobe capture common kernel events and can also use for hids agent（kernel module）
 ## Compatibility
-- Kernel == 4.15.0（The project selects relatively stable kprobe points to hook, and the compatibility will be testd after the framework is completed）
+- Kernel == 4.15.0 & 5.15.0 （The project selects relatively stable kprobe points to hook, and the compatibility will be testd after the framework is completed）
 
 
 
@@ -70,5 +70,3 @@ root@eBPF:/usr/local/Kprobe-hooker# dmesg # event show
 - Combine With Common Data Streaming Platform (kafka & es & etc.) 
 - todo.
 
-## Reference
-https://github.com/EBWi11/AgentSmith-HIDS
